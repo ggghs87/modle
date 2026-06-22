@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Оценки</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-page="grades">
+
+<header class="topbar">
+  <button class="menu-btn">☰</button>
+
+  <div class="icons">
+    <span>🔔</span>
+    <span>💬</span>
+
+    <div class="avatar-wrapper">
+      <div id="avatarBtn" class="avatar"></div>
+
+      <div id="dropdown" class="dropdown hidden">
+        <div class="dropdown-item" data-go="main">Личный кабинет</div>
+        <div class="dropdown-item step-2" data-go="user">О пользователе</div>
+        <div class="dropdown-item">Оценки</div>
+        <div class="dropdown-item">Сообщения</div>
+        <div class="dropdown-item">Настройки</div>
+        <div class="dropdown-item danger">Выход</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Оценки по семестрам</h2>
+
+  <div class="card">Высшая математика — ✔</div>
+  <div class="card">Физика — ✔</div>
+  <div class="card">Сопротивление материалов — ✖</div>
+</main>
+
+<div id="hint" class="hint step-1">
+  1. Нажми на аватар
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
